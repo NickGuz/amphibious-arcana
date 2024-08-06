@@ -44,6 +44,10 @@ export default class HelpScene extends Scene {
             new Vec2(size.x, sizeY)
         );
         this.createLabel(
+            "Art by Mia Nelson Zelaya",
+            new Vec2(size.x, sizeY+ yOffset * i++)
+        );
+        this.createLabel(
             "Wolfie2D created by Joe Weaver and Richard McKenna",
             new Vec2(size.x, sizeY + yOffset * i++)
         );
